@@ -1,0 +1,75 @@
+*{
+   padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.login{
+    max-width: 500px;
+    border: solid 1px black;
+    margin: auto;
+    padding: 50px 100px;
+}
+.login .h3{
+    margin: 0 0 40px 0;
+    text-align: center;
+    font-size: 20px;
+    color: #3D3D3D;
+}
+.login span{
+    margin: auto;
+}
+.login_test_1{
+    padding: 0 0 0 12px
+}
+.login_test_2 {
+    padding: 0 0 0 10px;
+    color: #46A358;
+}
+.text_registration{
+    margin-bottom: 14px;
+    text-align: center
+}
+.input{
+    width: 300px;
+    display: block;
+    padding: 12px 12px 12px 14px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: solid 1px #EAEAEA
+}
+.input_conpassword{
+    width: 300px;
+    display: block;
+    padding: 12px 12px 12px 14px;
+    margin-bottom: 41px;
+    border-radius: 5px;
+    border: solid 1px #EAEAEA
+}
+.button{
+    width: 300px;
+    background-color: #46A358;
+    border-radius: 5px;
+    border: solid 1px #EAEAEA;
+    margin-bottom: 36px;
+    display: block;
+    padding: 16px 0 13px 0
+}
+.button_reg{
+    color: white
+}
+.or_text{
+    text-align:
+    center; margin-bottom: 27px;
+    display: block
+}
+.pic_login{
+    display: block;
+    text-align: center
+}
+.line{
+    height: 10px;
+    top: 646px;
+    background-color: #46A358;
+    display: block;
+    margin-top: 40px;
+}
