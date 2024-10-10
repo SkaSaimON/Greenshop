@@ -1,38 +1,58 @@
-*{
-   padding: 0;
+@font-face {
+    font-family: 'cera_proregular';
+    src: url('../fonts/cerapro-regular-webfont.eot');
+    src: url('../fonts/cerapro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cerapro-regular-webfont.woff2') format('woff2'),
+    url('../fonts/cerapro-regular-webfont.woff') format('woff'),
+    url('../fonts/cerapro-regular-webfont.ttf') format('truetype'),
+    url('../fonts/cerapro-regular-webfont.svg#cera_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.container_login{
+
+.container_login {
     max-width: 500px;
     border: solid 1px black;
     margin: auto;
     padding: 50px 100px;
 }
-.container_login h3{
+
+.container_login h3 {
     margin: 0 0 40px 0;
     text-align: center;
     font-size: 20px;
     color: #3D3D3D;
 }
-.container_login span{
+
+.container_login span {
     margin: auto;
 }
-.login_test_1{
+
+.login_test_1 {
     padding: 0 0 0 12px
 }
+
 .login_test_2 {
     padding: 0 0 0 10px;
     color: #46A358;
 }
-.text_registration{
+
+.text_registration {
     margin-bottom: 14px;
     text-align: center
 }
-header .logo{
+
+header .logo {
     margin-bottom: 17px;
 }
-.input{
+
+.input {
     width: 300px;
     display: block;
     padding: 12px 12px 12px 14px;
@@ -40,7 +60,8 @@ header .logo{
     border-radius: 5px;
     border: solid 1px #EAEAEA
 }
-.input_conpassword{
+
+.input_conpassword {
     width: 300px;
     display: block;
     padding: 12px 12px 12px 14px;
@@ -48,7 +69,8 @@ header .logo{
     border-radius: 5px;
     border: solid 1px #EAEAEA
 }
-.button{
+
+.button {
     width: 300px;
     background-color: #46A358;
     border-radius: 5px;
@@ -57,59 +79,70 @@ header .logo{
     display: block;
     padding: 16px 0 13px 0
 }
-.button_reg{
+
+.button_reg {
     color: white
 }
-.or_text{
-    text-align:
-    center; margin-bottom: 27px;
+
+.or_text {
+    text-align: center;
+    margin-bottom: 27px;
     display: block
 }
-.pic_login{
+
+.pic_login {
     display: block;
     text-align: center
 }
-.line{
+
+.line {
     height: 10px;
     top: 646px;
     background-color: #46A358;
     display: block;
     margin-top: 40px;
 }
-a{
+
+a {
     display: block;
 }
-header{
+
+header {
     padding-top: 30px;
-    margin-bottom: 68px;
+    margin-bottom: 12px;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: auto;
 }
-header .container{
+
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgba(70, 163, 88, 0.5);
 }
-header nav ul{
+
+header nav ul {
     display: flex;
     gap: 50px;
 }
 
-header .logo{
+header .logo {
     margin-bottom: 17px;
 }
-header nav a{
-    font-family: "Cera Pro", sans-serif;
+
+header nav a {
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
     text-decoration: none;
 }
-header .login{
-    font-family: "Cera Pro", sans-serif;
+
+header .login {
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #fff;
@@ -121,7 +154,8 @@ header .login{
     align-items: center;
     margin-bottom: 18px;
 }
-header .login:before{
+
+header .login:before {
     content: "";
     display: inline-block;
     width: 20px;
@@ -129,56 +163,68 @@ header .login:before{
     background-image: url("../images/Logout.svg");
     margin-right: 4px;
 }
-header nav li:after{
+
+header nav li:after {
     display: block;
-    width:0;
+    width: 0;
     content: "";
     background: #46a358;
     height: 3px;
     margin-top: 25px;
 }
-header nav li:hover:after{
+
+header nav li:hover:after {
     width: 100%;
 }
-section .container{
+
+.banner .container {
     display: flex;
     justify-content: space-between;
+    background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
+    margin-bottom: 26px;
 }
-article{
+
+article {
     max-width: 557px;
     margin-left: 40px;
 }
-.container h1{
-    font-family: "Cera Pro", sans-serif;
+
+.banner .container h1 {
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 900;
     font-size: 70px;
     line-height: 100%;
     text-transform: uppercase;
     color: #3d3d3d;
 }
-.container h1 span{
+
+.banner .container h1 span {
     color: #46A358;
 }
-.container h4{
-    font-family: "Cera Pro", sans-serif;
+
+.banner .container h4 {
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 114%;
     text-transform: uppercase;
     color: #3d3d3d;
+    padding-top: 68px;
     margin-bottom: 7px;
 }
-.container p{
-    font-family: "Cera Pro", sans-serif;
+
+.banner .container p {
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 171%;
     color: #727272;
     margin-bottom: 44px;
 }
-div .shop_now {
+
+.banner .container .shop_now {
     max-width: 150px;
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 700;
     font-size: 16px;
     color: #fff;
@@ -189,7 +235,165 @@ div .shop_now {
     display: flex;
     align-items: center;
 }
-.container img{
+
+.banner .container img {
+    padding-bottom: 51px;
+}
+
+.product .container {
     display: flex;
-    margin-left: auto;
+    justify-content: space-between;
+}
+
+.product .left_side {
+    max-width: 310px;
+    background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
+}
+
+.left_side h4 {
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    padding: 13px 0 14px 18px;
+}
+
+.left_side li a {
+    font-family: 'cera_proregular', sans-serif;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+.left_side li a:hover {
+    color: #46A358;
+}
+
+.left_side ul {
+    padding-bottom: 378px;
+}
+
+.product .right_side {
+    max-width: 840px;
+}
+
+.product .right_side a {
+    font-family: 'cera_proregular', sans-serif;
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+.product_sort ul {
+    display: flex;
+    gap: 40px;
+}
+
+.right_side .product_sort li a:hover {
+    color: #46A358;
+}
+
+.right_side {
+    margin-left: 50px;
+}
+
+.product .product_sort a:before {
+    display: block;
+    width: 0;
+    content: "";
+    background: #46a358;
+    height: 3px;
+    margin-top: 7px;
+}
+
+.product .product_sort a:hover:after {
+    width: 100%;
+}
+
+.product .right_side p {
+    font-family: 'cera_proregular', sans-serif;
+    font-size: 15px;
+    color: #3d3d3d;
+}
+
+.product .product_sort {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product .product_sort ul {
+    display: flex;
+}
+
+.main_product_items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main_product_items article {
+    margin: auto;
+    max-width: 258px;
+}
+
+.main_product_items img {
+    padding: 25px 4px;
+    margin-bottom: 38px;
+}
+
+.main_product_items h4 {
+    font-family: 'cera_proregular', sans-serif;
+    font-size: 16px;
+    line-height: 100%;
+    color: #3d3d3d;
+    margin-bottom: 6px;
+}
+
+.main_product_items h5 {
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #46a358;
+}
+.product_pages {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 90px 0 90px 625px
+}
+.product_pages a {
+    margin: auto;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    padding: 9px 13px 9px 13px;
+    width: 35px;
+    height: 35px;
+}
+.product_pages ul {
+    display: flex;
+    gap: 10px;
+}
+.product_pages ul li:first-of-type a{
+    background-color: #46a358;
+    color: white;
+}
+.product_pages a:hover {
+    background-color: #46a358;
+    color: white;
+}
+.product_pages ul li:last-of-type a:before{
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/arrow_.svg");
+}
+.product_pages ul li:last-of-type:hover a:before{
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image: url("../images/arrow_white.svg");
 }
