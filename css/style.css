@@ -284,21 +284,15 @@ article {
     text-decoration: none;
     color: #3d3d3d;
 }
-
+.product_sort{
+    margin-bottom: 31px;
+}
 .product_sort ul {
     display: flex;
     gap: 40px;
 }
 
-.right_side .product_sort li a:hover {
-    color: #46A358;
-}
-
-.right_side {
-    margin-left: 50px;
-}
-
-.product .product_sort a:before {
+.product_sort a:after {
     display: block;
     width: 0;
     content: "";
@@ -307,9 +301,37 @@ article {
     margin-top: 7px;
 }
 
-.product .product_sort a:hover:after {
+.right_side .product_sort a:hover:after {
     width: 100%;
+    color: #46A358;
 }
+
+.right_side .product_sort a:hover {
+    color: #46A358;
+}
+
+.right_side {
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .product .right_side p {
     font-family: 'cera_proregular', sans-serif;
