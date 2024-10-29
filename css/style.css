@@ -336,7 +336,6 @@ header nav li:hover:after {
 }
 
 .main_product_items article {
-    margin: auto;
     max-width: 258px;
     border-top: solid 1px transparent;
     position: relative;
