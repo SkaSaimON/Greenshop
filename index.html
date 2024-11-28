@@ -8,6 +8,11 @@
     <title>Greenshop</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_preproc.css">
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+
 </head>
 <body>
 <header>
@@ -23,8 +28,42 @@
                 <li>
                     <a href="#">Shop</a>
                 </li>
-                <li>
+                <li class="dropdown">
                     <a href="#">Plant Care</a>
+                    <ul class="sub_menu">
+                        <li>
+                            <a href="#">Drainage</a>
+                        </li>
+                        <li>
+                            <a href="#">Fungicides</a>
+                        </li>
+                        <li>
+                            <a href="#">Fertilizer</a>
+                        </li>
+                        <li class="dropdown_2">
+                            <a href="#">Priming</a>
+                            <ul class="sub_menu_2">
+                                <li>
+                                    <a href="#">Universal</a>
+                                </li>
+                                <li>
+                                    <a href="#">For Ficus</a>
+                                </li>
+                                <li>
+                                    <a href="#">For Cacti</a>
+                                </li>
+                                <li>
+                                    <a href="#">For Citrus</a>
+                                </li>
+                                <li>
+                                    <a href="#">For those in bloom</a>
+                                </li>
+                                <li>
+                                    <a href="#">For Orchids</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <a href="#">Blogs</a>
@@ -373,6 +412,36 @@
             </div>
         </div>
     </section>
+    <section class="down_news">
+        <div class="container_down_news">
+            <article>
+                <img src="images/down_news_1.svg" alt="down_news_1">
+                <h4>Garden Care</h4>
+                <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+            </article>
+            <article>
+                <img src="images/down_news_2.svg" alt="down_news_1">
+                <h4>Plant Renovation</h4>
+                <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+            </article>
+            <article>
+                <img src="images/down_news_3.svg" alt="down_news_1">
+                <h4>Watering Graden</h4>
+                <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+            </article>
+            <article>
+                <h5>Would you like to join newsletters?</h5>
+                <form action="">
+                    <input class="inpu_sub" type="text" name="Mail_Sub" placeholder="enter your email address..." id="Mail_Sub">
+                    <button class="button_sub" name="Mail_Sub-But">
+                        Join
+                    </button>
+                </form>
+                <p class="sub_text">We usually post offers and challenges in newsletter. We’re your online houseplant destination. We offer a wide range of houseplants and accessories shipped directly from our (green)house to yours! </p>
+            </article>
+        </div>
+    </section>
 </main>
+
 </body>
 </html>
